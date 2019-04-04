@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding:0;
+}
+@font-face{
+    font-family: "myfont";
+    src: url("font/Butterfly Kiss - Personal Use.otf") format("opentype");
+}
+
+/* nav */
+.navbar h3{
+    font-family: "myfont";
+    font-size:45px;
+}
+.fas{
+    color:purple;
+}
+
+/* header */
+.top-img{
+    background-image:url("imgs/slide01.jpg");
+    background-size:cover;
+    padding: 40px 0;
+}
+.top-text{
+    font-family: "myfont";
+    font-size: 100px;
+    text-align: center;
+    padding: 250px 0px;
+}
+
+/* information */
+.information-container{
+    padding: 40px 0;
+    margin-bottom: 0;
+    background-image:url("imgs/kitte.jpg");
+    background-size:cover;
+}
+.information-container h2{
+    text-align: center;
+    font-family: "myfont";
+    font-size:80px;
+}
+.information-container img{
+    width: 350px;
+    height: 350px;
+    object-fit: cover; 
+    margin-left:50px;
+    margin-bottom:10px;
+}
+.information-container ul{
+    padding: 30px 50px;
+    height: 350px;
+    display: list-item;
+    list-style: none;
+    font-size: 25px;
+    font-weight:bold;
+    font-family: serif;
+}
+
+/* portfolio-list */
+.portfolio-list{
+    background-color: #333;
+    padding: 50px;
+    color: white;
+    font-family: serif;
+}
+
+.portfolio-list h2{
+    text-align:center;
+    font-family: "myfont";
+    font-size:80px;
+}
+.portfolio-img{
+    width:350px;
+    height:250px;
+}
+
+/* willingto */
+.carousel-inner h2{
+    font-family: "myfont";
+    font-size:80px;
+    text-align: center;
+}
+
+.carousel-item{
+    padding: 40px 0;
+}
+.carousel-item p{
+    color:white;
+    font-size:20px;
+    font-family: sans-serif;
+}
