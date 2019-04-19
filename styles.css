@@ -1,6 +1,6 @@
 *{
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 }
 @font-face{
     font-family: "myfont";
@@ -10,7 +10,7 @@
 /* nav */
 .navbar h3{
     font-family: "myfont";
-    font-size:45px;
+    font-size: 45px;
 }
 .fas{
     color:purple;
@@ -18,35 +18,35 @@
 
 /* header */
 .top-img{
-    background-image:url("imgs/slide01.jpg");
-    background-size:cover;
+    background-image: url("imgs/slide01.jpg");
+    background-size: cover;
     padding: 40px 0;
 }
 .top-text{
     font-family: "myfont";
     font-size: 100px;
     text-align: center;
-    padding: 250px 0px;
 }
 
 /* information */
 .information-container{
     padding: 40px 0;
     margin-bottom: 0;
-    background-image:url("imgs/kitte.jpg");
-    background-size:cover;
+    background-image: url("imgs/nightsky.jpg");
+    background-size: cover;
 }
 .information-container h2{
     text-align: center;
     font-family: "myfont";
-    font-size:80px;
+    font-size: 80px;
+    color: white;
 }
 .information-container img{
     width: 350px;
     height: 350px;
     object-fit: cover; 
-    margin-left:50px;
-    margin-bottom:10px;
+    margin-left: 50px;
+    margin-bottom: 10px;
 }
 .information-container ul{
     padding: 30px 50px;
@@ -54,8 +54,9 @@
     display: list-item;
     list-style: none;
     font-size: 25px;
-    font-weight:bold;
+    font-weight: bold;
     font-family: serif;
+    color: white;
 }
 
 /* portfolio-list */
@@ -67,27 +68,42 @@
 }
 
 .portfolio-list h2{
-    text-align:center;
+    text-align: center;
     font-family: "myfont";
-    font-size:80px;
+    font-size: 80px;
+    line-height: 50px;
+    margin-bottom: 30px;
 }
 .portfolio-img{
-    width:350px;
-    height:250px;
+    width: 350px;
+    height: 250px;
 }
 
 /* willingto */
 .carousel-inner h2{
     font-family: "myfont";
-    font-size:80px;
+    font-size: 80px;
     text-align: center;
 }
 
 .carousel-item{
-    padding: 40px 0;
+    padding: 0;
+    height: 450px;
 }
 .carousel-item p{
     color:white;
-    font-size:20px;
+    font-size: 20px;
     font-family: sans-serif;
+}
+
+/* footer */
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: coral;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    padding: 0 auto;
+    font-weight: lighter; 
 }
